@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C953500205B2C0F00850090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9534FF205B2C0F00850090 /* AppDelegate.swift */; };
+		5C953502205B2C0F00850090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C953501205B2C0F00850090 /* ViewController.swift */; };
+		5C953505205B2C0F00850090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C953503205B2C0F00850090 /* Main.storyboard */; };
+		5C953507205B2C0F00850090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C953506205B2C0F00850090 /* Assets.xcassets */; };
+		5C95350A205B2C0F00850090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C953508205B2C0F00850090 /* LaunchScreen.storyboard */; };
+		5C953515205B2C0F00850090 /* Political_PartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C953514205B2C0F00850090 /* Political_PartyTests.swift */; };
+		5C953520205B2C0F00850090 /* Political_PartyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95351F205B2C0F00850090 /* Political_PartyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C953511205B2C0F00850090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C9534F4205B2C0F00850090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C9534FB205B2C0F00850090;
+			remoteInfo = "Political Party";
+		};
+		5C95351C205B2C0F00850090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C9534F4205B2C0F00850090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C9534FB205B2C0F00850090;
+			remoteInfo = "Political Party";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C9534FC205B2C0F00850090 /* Political Party.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Political Party.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9534FF205B2C0F00850090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C953501205B2C0F00850090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C953504205B2C0F00850090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C953506205B2C0F00850090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C953509205B2C0F00850090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C95350B205B2C0F00850090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C953510205B2C0F00850090 /* Political PartyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Political PartyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C953514205B2C0F00850090 /* Political_PartyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Political_PartyTests.swift; sourceTree = "<group>"; };
+		5C953516205B2C0F00850090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C95351B205B2C0F00850090 /* Political PartyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Political PartyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C95351F205B2C0F00850090 /* Political_PartyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Political_PartyUITests.swift; sourceTree = "<group>"; };
+		5C953521205B2C0F00850090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C9534F9205B2C0F00850090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C95350D205B2C0F00850090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C953518205B2C0F00850090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C9534F3205B2C0F00850090 = {
+			isa = PBXGroup;
+			children = (
+				5C9534FE205B2C0F00850090 /* Political Party */,
+				5C953513205B2C0F00850090 /* Political PartyTests */,
+				5C95351E205B2C0F00850090 /* Political PartyUITests */,
+				5C9534FD205B2C0F00850090 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C9534FD205B2C0F00850090 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C9534FC205B2C0F00850090 /* Political Party.app */,
+				5C953510205B2C0F00850090 /* Political PartyTests.xctest */,
+				5C95351B205B2C0F00850090 /* Political PartyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C9534FE205B2C0F00850090 /* Political Party */ = {
+			isa = PBXGroup;
+			children = (
+				5C9534FF205B2C0F00850090 /* AppDelegate.swift */,
+				5C953501205B2C0F00850090 /* ViewController.swift */,
+				5C953503205B2C0F00850090 /* Main.storyboard */,
+				5C953506205B2C0F00850090 /* Assets.xcassets */,
+				5C953508205B2C0F00850090 /* LaunchScreen.storyboard */,
+				5C95350B205B2C0F00850090 /* Info.plist */,
+			);
+			path = "Political Party";
+			sourceTree = "<group>";
+		};
+		5C953513205B2C0F00850090 /* Political PartyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C953514205B2C0F00850090 /* Political_PartyTests.swift */,
+				5C953516205B2C0F00850090 /* Info.plist */,
+			);
+			path = "Political PartyTests";
+			sourceTree = "<group>";
+		};
+		5C95351E205B2C0F00850090 /* Political PartyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C95351F205B2C0F00850090 /* Political_PartyUITests.swift */,
+				5C953521205B2C0F00850090 /* Info.plist */,
+			);
+			path = "Political PartyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C9534FB205B2C0F00850090 /* Political Party */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C953524205B2C0F00850090 /* Build configuration list for PBXNativeTarget "Political Party" */;
+			buildPhases = (
+				5C9534F8205B2C0F00850090 /* Sources */,
+				5C9534F9205B2C0F00850090 /* Frameworks */,
+				5C9534FA205B2C0F00850090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Political Party";
+			productName = "Political Party";
+			productReference = 5C9534FC205B2C0F00850090 /* Political Party.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C95350F205B2C0F00850090 /* Political PartyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C953527205B2C0F00850090 /* Build configuration list for PBXNativeTarget "Political PartyTests" */;
+			buildPhases = (
+				5C95350C205B2C0F00850090 /* Sources */,
+				5C95350D205B2C0F00850090 /* Frameworks */,
+				5C95350E205B2C0F00850090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C953512205B2C0F00850090 /* PBXTargetDependency */,
+			);
+			name = "Political PartyTests";
+			productName = "Political PartyTests";
+			productReference = 5C953510205B2C0F00850090 /* Political PartyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C95351A205B2C0F00850090 /* Political PartyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C95352A205B2C0F00850090 /* Build configuration list for PBXNativeTarget "Political PartyUITests" */;
+			buildPhases = (
+				5C953517205B2C0F00850090 /* Sources */,
+				5C953518205B2C0F00850090 /* Frameworks */,
+				5C953519205B2C0F00850090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C95351D205B2C0F00850090 /* PBXTargetDependency */,
+			);
+			name = "Political PartyUITests";
+			productName = "Political PartyUITests";
+			productReference = 5C95351B205B2C0F00850090 /* Political PartyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C9534F4205B2C0F00850090 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Patrick Bruce";
+				TargetAttributes = {
+					5C9534FB205B2C0F00850090 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5C95350F205B2C0F00850090 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C9534FB205B2C0F00850090;
+					};
+					5C95351A205B2C0F00850090 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C9534FB205B2C0F00850090;
+					};
+				};
+			};
+			buildConfigurationList = 5C9534F7205B2C0F00850090 /* Build configuration list for PBXProject "Political Party" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C9534F3205B2C0F00850090;
+			productRefGroup = 5C9534FD205B2C0F00850090 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C9534FB205B2C0F00850090 /* Political Party */,
+				5C95350F205B2C0F00850090 /* Political PartyTests */,
+				5C95351A205B2C0F00850090 /* Political PartyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C9534FA205B2C0F00850090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C95350A205B2C0F00850090 /* LaunchScreen.storyboard in Resources */,
+				5C953507205B2C0F00850090 /* Assets.xcassets in Resources */,
+				5C953505205B2C0F00850090 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C95350E205B2C0F00850090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C953519205B2C0F00850090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C9534F8205B2C0F00850090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C953502205B2C0F00850090 /* ViewController.swift in Sources */,
+				5C953500205B2C0F00850090 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C95350C205B2C0F00850090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C953515205B2C0F00850090 /* Political_PartyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C953517205B2C0F00850090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C953520205B2C0F00850090 /* Political_PartyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C953512205B2C0F00850090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C9534FB205B2C0F00850090 /* Political Party */;
+			targetProxy = 5C953511205B2C0F00850090 /* PBXContainerItemProxy */;
+		};
+		5C95351D205B2C0F00850090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C9534FB205B2C0F00850090 /* Political Party */;
+			targetProxy = 5C95351C205B2C0F00850090 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C953503205B2C0F00850090 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C953504205B2C0F00850090 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C953508205B2C0F00850090 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C953509205B2C0F00850090 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C953522205B2C0F00850090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C953523205B2C0F00850090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C953525205B2C0F00850090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Political Party/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KatiePat.Political-Party";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C953526205B2C0F00850090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Political Party/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KatiePat.Political-Party";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C953528205B2C0F00850090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Political PartyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KatiePat.Political-PartyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Political Party.app/Political Party";
+			};
+			name = Debug;
+		};
+		5C953529205B2C0F00850090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Political PartyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KatiePat.Political-PartyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Political Party.app/Political Party";
+			};
+			name = Release;
+		};
+		5C95352B205B2C0F00850090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Political PartyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KatiePat.Political-PartyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Political Party";
+			};
+			name = Debug;
+		};
+		5C95352C205B2C0F00850090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Political PartyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KatiePat.Political-PartyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Political Party";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C9534F7205B2C0F00850090 /* Build configuration list for PBXProject "Political Party" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C953522205B2C0F00850090 /* Debug */,
+				5C953523205B2C0F00850090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C953524205B2C0F00850090 /* Build configuration list for PBXNativeTarget "Political Party" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C953525205B2C0F00850090 /* Debug */,
+				5C953526205B2C0F00850090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C953527205B2C0F00850090 /* Build configuration list for PBXNativeTarget "Political PartyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C953528205B2C0F00850090 /* Debug */,
+				5C953529205B2C0F00850090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C95352A205B2C0F00850090 /* Build configuration list for PBXNativeTarget "Political PartyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C95352B205B2C0F00850090 /* Debug */,
+				5C95352C205B2C0F00850090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C9534F4205B2C0F00850090 /* Project object */;
+}
