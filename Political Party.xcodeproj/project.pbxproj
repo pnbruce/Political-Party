@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5C953500205B2C0F00850090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9534FF205B2C0F00850090 /* AppDelegate.swift */; };
-		5C953502205B2C0F00850090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C953501205B2C0F00850090 /* ViewController.swift */; };
 		5C953505205B2C0F00850090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C953503205B2C0F00850090 /* Main.storyboard */; };
 		5C953507205B2C0F00850090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C953506205B2C0F00850090 /* Assets.xcassets */; };
 		5C95350A205B2C0F00850090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C953508205B2C0F00850090 /* LaunchScreen.storyboard */; };
 		5C953515205B2C0F00850090 /* Political_PartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C953514205B2C0F00850090 /* Political_PartyTests.swift */; };
 		5C953520205B2C0F00850090 /* Political_PartyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95351F205B2C0F00850090 /* Political_PartyUITests.swift */; };
+		5C953532205B511200850090 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C953531205B511200850090 /* StartViewController.swift */; };
+		5C953534205B546500850090 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C953533205B546500850090 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		5C9534FC205B2C0F00850090 /* Political Party.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Political Party.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9534FF205B2C0F00850090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C953501205B2C0F00850090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C953504205B2C0F00850090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C953506205B2C0F00850090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C953509205B2C0F00850090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		5C95351B205B2C0F00850090 /* Political PartyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Political PartyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C95351F205B2C0F00850090 /* Political_PartyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Political_PartyUITests.swift; sourceTree = "<group>"; };
 		5C953521205B2C0F00850090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C953531205B511200850090 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		5C953533205B546500850090 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				5C9534FF205B2C0F00850090 /* AppDelegate.swift */,
-				5C953501205B2C0F00850090 /* ViewController.swift */,
+				5C953531205B511200850090 /* StartViewController.swift */,
 				5C953503205B2C0F00850090 /* Main.storyboard */,
+				5C953533205B546500850090 /* GameViewController.swift */,
 				5C953506205B2C0F00850090 /* Assets.xcassets */,
 				5C953508205B2C0F00850090 /* LaunchScreen.storyboard */,
 				5C95350B205B2C0F00850090 /* Info.plist */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					5C9534FB205B2C0F00850090 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					5C95350F205B2C0F00850090 = {
@@ -259,8 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C953502205B2C0F00850090 /* ViewController.swift in Sources */,
+				5C953534205B546500850090 /* GameViewController.swift in Sources */,
 				5C953500205B2C0F00850090 /* AppDelegate.swift in Sources */,
+				5C953532205B511200850090 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,11 +431,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Political Party/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "KatiePat.Political-Party";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Political Party/Political Party-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +448,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Political Party/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "KatiePat.Political-Party";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Political Party/Political Party-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
